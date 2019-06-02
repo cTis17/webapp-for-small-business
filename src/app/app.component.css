@@ -1,0 +1,104 @@
+html, body {
+	height: 100%;
+    width: 100%;
+}
+
+.navbar {
+	background-color: #00aeff;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #D5D5D5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #FFF;
+}
+
+#home {
+	background: url("https://cdn.discordapp.com/attachments/248640842762289175/582224031810322442/background.jpg") no-repeat center center fixed;
+	display: table;
+	position: relative;
+	width: 100%;
+    background-size: cover;
+    padding-top: 25%;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 1000%;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 400%;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 200%;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.padding {
+	 padding: 80px 0;
+}
+
+padding img {
+	width: 100%
+}
+
+.form-control.ng-touched.ng-invalid {
+	border: 5px solid red;
+}
+
+footer {
+	width: 100%;
+	background-color: #00aeff;
+	color: #D5D5D5;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 35px;
+	color: #D5D5D5;
+}
+
+.fa:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#contactPhone {
+	color: #D5D5D5;
+}
+
+#contactPhone:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.bottom-buffer {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+        font-size: 300%;
+        padding-top: 30%;
+	}
+	h2 {
+		font-size: 250%;
+	}
+	h3 {
+		font-size: 140%;
+	}
+}
